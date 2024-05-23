@@ -1,0 +1,14 @@
+version: '3.4'
+
+services:
+  malmo:
+    image: malmo
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    environment:
+      JAVA_OPTS: -agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=5005,quiet=y
+    ports:
+      - 10000:10000
+      - 5901:5901
+      - 5005:5005

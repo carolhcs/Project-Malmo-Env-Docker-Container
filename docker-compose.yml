@@ -1,0 +1,11 @@
+version: '3.4'
+
+services:
+  malmo:
+    image: malmo
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    ports:
+      - 10000:10000
+      - 5901:5901
