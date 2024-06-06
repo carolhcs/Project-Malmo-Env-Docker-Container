@@ -1,2 +1,38 @@
-# Project-Malmo-Env-Docker
- 
+
+# Project Malmo Docker Environments
+
+This is a compilation of ready-made Project Malmo environments to run on Docker, in addition to presenting the development of our own environment.
+
+## Official environments
+
+[Project Malmo](https://github.com/Microsoft/malmo)
+
+[Malmo Challenge](https://github.com/microsoft/malmo-challenge/tree/master)
+
+[Malmo Challenge Docker](https://github.com/Microsoft/malmo-challenge/tree/master/docker)
+
+### Limitations of the official docker environment
+
+- Fixed test environments aimed at using computer vision
+- Only supports python which would require a RESTful interface for communication, or translating the project to python
+
+## Non-official environments
+
+[**minecraft-rl-on-ray-cluster**](https://github.com/tsmatz/minecraft-rl-on-ray-cluster/blob/master/Readme.md)
+
+Integration of Project MalmO with Ray (a framework for distributed computing). It shows how to configure and run distributed reinforcement learning algorithms on a Ray cluster using Minecraft as a simulation environment.
+
+This project is written in Python and includes detailed instructions on how to set up the environment, install dependencies, and run training scripts. There is no explicit support for Java.
+
+[Image on docker hub](https://hub.docker.com/r/tsmatz/malmo-maze)
+
+[**Docker Container for Microsoft/Malmo by tnarik**](https://hub.docker.com/r/tnarik/malmo)
+
+This environment seems closer to the original, I couldn't identify if it allows the use of Java, because in its files I didn't see anything related to installing Java, only python.
+
+[**andkram/malmo_build_headless_0_35_6**](https://hub.docker.com/r/andkram/malmo_build_headless_0_35_6)
+
+This is a version of Project Malmo configured to run in headless mode, that is, without a graphical interface, which is useful for running on servers or distributed computing environments. This image is primarily aimed at Python, but perhaps can be reconfigured to include Java support, although this may require additional adjustments to the Dockerfile.
+
+## Developing environment
+
