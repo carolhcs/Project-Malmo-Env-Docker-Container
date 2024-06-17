@@ -36,3 +36,17 @@ This is a version of Project Malmo configured to run in headless mode, that is, 
 
 ## Developing environment
 
+
+## Result
+<details>
+<summary> Result Run </summary>
+
+I find a functional and official Docker Image with VNC [here](https://github.com/Microsoft/malmo/blob/master/scripts/python-wheel/README.md#using-the-prebuilt-docker-image)
+
+![image](https://github.com/carolhcs/Project-Malmo-Env-Docker-Container/assets/14095834/03d6c11b-c8aa-455b-a48f-e2feed59f26c)
+
+![image](https://github.com/carolhcs/Project-Malmo-Env-Docker-Container/assets/14095834/ac253aa2-75a4-4f88-8b04-03a0aebf82a1)
+
+
+</details>
+
