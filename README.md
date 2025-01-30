@@ -7,6 +7,8 @@ This is a compilation of ready-made Project Malmo environments to run on Docker,
 
 [Project Malmo](https://github.com/Microsoft/malmo)
 
+[Using the prebuilt Docker image](https://github.com/Microsoft/malmo/blob/master/scripts/python-wheel/README.md#using-the-prebuilt-docker-image)
+
 [Malmo Challenge](https://github.com/microsoft/malmo-challenge/tree/master)
 
 [Malmo Challenge Docker](https://github.com/Microsoft/malmo-challenge/tree/master/docker)
