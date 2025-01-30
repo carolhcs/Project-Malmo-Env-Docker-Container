@@ -43,12 +43,15 @@ https://github.com/Microsoft/malmo
 In order to run our Java experiments on the Malmo project using Docker, we are trying the approach using the Jupyter notebook that is in the official Malmo project image. But to be able to use Java on Jupyter it is necessary to configure a Java kernel.
 
 [**IJava**](https://github.com/SpencerPark/IJava)
+
 [**Jupyter for Java Assets**](https://github.com/jupyter-java)
 
 **Videos Guides and Tutorials:**
 
 [A better Jupyter Experience for Java Developers - JTaccuino unveiled by Jose Pereda, Sven Reimers](https://www.youtube.com/watch?v=SMD5g0Fqn34&t=23s)
+
 [Java in Jupyter Notebooks -- Part 1: Introduction to Java Programming in Jupyter Notebook](https://www.youtube.com/watch?v=UKT6t9R5RHA)
+
 [13 A Jupyter kernel for executing Java code - Introduction to Google Colab for Research](https://www.youtube.com/watch?v=nOoXZlHmF5o&t=29s)
 
 
