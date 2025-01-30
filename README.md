@@ -35,6 +35,21 @@ This environment seems closer to the original, I couldn't identify if it allows 
 This is a version of Project Malmo configured to run in headless mode, that is, without a graphical interface, which is useful for running on servers or distributed computing environments. This image is primarily aimed at Python, but perhaps can be reconfigured to include Java support, although this may require additional adjustments to the Dockerfile.
 
 ## Developing environment
+### Malmo Java Libraries for Ubuntu
+https://github.com/carolhcs/malmo-java-libs-ubuntu
+https://github.com/Microsoft/malmo
+
+### Java Kernel for Jupyter Notebook
+In order to run our Java experiments on the Malmo project using Docker, we are trying the approach using the Jupyter notebook that is in the official Malmo project image. But to be able to use Java on Jupyter it is necessary to configure a Java kernel.
+
+[**IJava**](https://github.com/SpencerPark/IJava)
+[**Jupyter for Java Assets**](https://github.com/jupyter-java)
+
+**Videos Guides and Tutorials:**
+
+[A better Jupyter Experience for Java Developers - JTaccuino unveiled by Jose Pereda, Sven Reimers](https://www.youtube.com/watch?v=SMD5g0Fqn34&t=23s)
+[Java in Jupyter Notebooks -- Part 1: Introduction to Java Programming in Jupyter Notebook](https://www.youtube.com/watch?v=UKT6t9R5RHA)
+[13 A Jupyter kernel for executing Java code - Introduction to Google Colab for Research](https://www.youtube.com/watch?v=nOoXZlHmF5o&t=29s)
 
 
 ## Result
