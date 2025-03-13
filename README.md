@@ -82,6 +82,8 @@ https://hub.docker.com/r/carolhcs/projectmalmoexp
 
 ![image](https://github.com/user-attachments/assets/45381e84-4e23-45f0-bdba-e16b017b4362)
 
+![image](https://github.com/user-attachments/assets/b125538d-f339-4704-bd57-ab45f5cd1202)
+
 
 [**u1ih**](https://hub.docker.com/r/u1ih/ubuntu-novnc)
 
